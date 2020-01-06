@@ -5,17 +5,185 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>HTML5</title>
 </head>
 
 <body>
     <!-- Header Section (Block level Tag)-->
+    <h1 align="center" style="color: red;">Heading Tag</h1>
     <h1>Heading 1</h1>
     <h2>Heading 1</h2>
     <h3>Heading 1</h3>
     <h4>Heading 1</h4>
     <h5>Heading 1</h5>
     <h6>Heading 1</h6>
+    <h1 align="center" style="color: red;">Div. Paragraph. Span.</h1>
+    <div style="color: green;"></div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit,
+    inventore neque!
+    Perferendis, dolorum
+    quae velit, officia repellendus odit fugit harum error, beatae distinctio deserunt inventore reprehenderit nemo
+    vitae aspernatur doloremque.</div>
+    <div style="color: green;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias, quaerat! Voluptatum
+        possimus laborum,
+        veritatis iste enim quas recusandae, at praesentium accusantium consequatur debitis quia dolores? Mollitia
+        labore natus quae voluptas?</div>
+
+    <p style="color: blue">
+        <font face="arial">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam at similique
+            quasi sunt
+            ipsa? Nostrum minus
+            fugiat inventore doloribus similique nisi adipisci, ipsum commodi id, libero hic voluptas velit saepe.
+        </font>
+    </p>
+    <p style="color: blue;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur aliquid cum velit dolore
+        nesciunt reprehenderit
+        voluptates enim ea corporis ducimus sunt omnis, minus nihil adipisci voluptatem voluptas corrupti, sit sequi!
+    </p>
+
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente aliquam, nihil a illum nemo dolorum minima
+        maiores ipsum enim facere architecto, magnam provident odio obcaecati. Doloremque fugiat laudantium eveniet
+        explicabo!</span>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima aut odio dolore dignissimos quasi aliquid
+        molestias vitae, labore temporibus, provident aperiam modi quas ullam at natus eligendi, hic ipsum dolor.</span>
+    <!--Image Tag-->
+    <h1 style="color: red" align="center">Image Tag</h1>
+    <img src="https://cdn.dnaindia.com/sites/default/files/styles/full/public/2017/12/06/630755-bike-ss.jpg" width=100%>
+    <!--List Tag In HTML5 Thier are two type order list and unorder list-->
+    <br>
+    <h1 align="center">List View </h1>
+    <!--Unorder List-->
+    <ul>
+        <li type="square">Item 1</li>
+        <li type="square">Item 2</li>
+        <li type="circle">Item 2</li>
+        <li type="circl e">Item 2</li>
+    </ul>
+    <!--order List-->
+    <ol type="I" start="5">
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <!--Table Tag in HTML-->
+    <br>
+    <h1 align="center">Table Tag</h1>
+    <table border="1" width="50%">
+        <thead>
+            <tr>
+                <th colspan="3">Student Information</th>
+            </tr>
+            <tr>
+                <th>Name</th>
+                <th>City</th>
+                <th>Marks</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aditya</td>
+                <td>Pune</td>
+                <td rowspan="6" align="center">95%</td>
+
+            </tr>
+            <tr>
+                <td>Aditya</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td>Aditya</td>
+                <td>Pune</td>
+            </tr>
+            <tr>
+                <td colspan="2" rowspan="2">Aditya</td>
+            </tr>
+            <tr>
+            </tr>
+            <tr>
+                <td>Aditya</td>
+                <td>Pune</td>
+
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <!--Using Table Tag Create Form HTML5 -->
+    <p align="center"><b>Using Table Tag Create Form HTML5</b></p>
+    <!--For Default Border-->
+    <fieldset>
+
+        <legend>Register Form</legend>
+        <form action="index.html">
+            <table>
+                <tr>
+                    <td>Username :</td>
+                    <td><input name="uname" value="mn " type="text" placeholder="enter username" required></td>
+                </tr>
+                <tr>
+                    <td>Password :</td>
+                    <td><input type="password" placeholder="enter password" required></td>
+                </tr>
+                <tr>
+                    <td>Date Of Birth :</td>
+                    <td><input type="date" required></td>
+                </tr>
+                <tr>
+                    <td>Price </td>
+                    <td><input type="range" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input name="gen" value="gender" type="radio">Male
+                        <input name="gen" value="gender" type="radio">Female </td>
+                </tr>
+                <tr>
+                    <td>Choose Color:</td>
+                    <td><input type="color"></td>
+                </tr>
+                <tr>
+                    <td>Browser :</td>
+                    <td><input type="sel" list="brwsers" placeholder="Choose Your Browser">
+
+                        <datalist id="browsers">
+                            <option value="Internet Explorer">
+                            <option value="Firefox">
+                            <option value="Chrome">
+                            <option value="Opera">
+                            <option value="Safari">
+                        </datalist></td>
+                </tr>
+                <tr>
+                    <td>City :</td>
+                    <td><select>
+                            <option value="">select city...</option>
+                            <option value="">Pune</option>
+                            <option value="">Mumbai</option>
+                            <option value="">Nashik</option>
+                            <option value="">Dapoli</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Choose vehicle :</td>
+                    <td><input name="checkbox" value=CAR type="checkbox"> :Car
+                        <input name="checkbox" value="BIKE" type="checkbox"> :Bike</td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                    <td><input type="reset"></td>
+                </tr>
+            </table>
+
+        </form>
+    </fieldset>
+
+
 
 </body>
 
